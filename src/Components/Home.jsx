@@ -67,19 +67,19 @@ const Home = () => {
             <h2 style={styles.heading2}>Projects</h2>
 
             <h3 style={styles.heading3}>LearnSphere – CDAC Major Project</h3>
-            <ul>
+            <ul style={styles.paragraph}>
               <li>Full-stack E-Learning Platform using Spring Boot and React.js.</li>
               <li>Implemented JWT Authentication with role-based access (Admin/User).</li>
               <li>Modules: User Management, Courses, Quizzes, Auto-Certificate Generation.</li>
             </ul>
-            <p><b>Tech:</b> Spring Boot, React.js, MySQL, Docker, JWT</p>
+            <p style={styles.paragraph}><b>Tech:</b> Spring Boot, React.js, MySQL, Docker, JWT</p>
 
             <h3 style={styles.heading3}>Warehouse Inventory Tracker</h3>
-            <ul>
+            <ul style={styles.paragraph}>
               <li>Real-time inventory tracking with Spring Boot and React.js.</li>
               <li>Used Observer Pattern for low-stock alerts and synchronization for concurrent updates.</li>
             </ul>
-            <p><b>Tech:</b> Java, Spring Boot, React, REST APIs</p>
+            <p style={styles.paragraph}><b>Tech:</b> Java, Spring Boot, React, REST APIs</p>
           </div>
         </div>
       </div>

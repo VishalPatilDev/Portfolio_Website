@@ -21,13 +21,13 @@ const Profile = () => (
         </p>
 
         <h3 style={styles.heading2}>Achievements</h3>
-        <ul>
+        <ul style={styles.paragraph}>
           <li>Top performer in CDAC PG-DAC 2025</li>
           <li>Developed “LearnSphere” — E-Learning Platform (Spring Boot + React)</li>
           <li>Proficient in Git, Docker, Jenkins, and RESTful API design</li>
         </ul>
         <h3 style={styles.heading2}>Personal Information</h3>
-      <ul style={styles.list}>
+      <ul style={styles.paragraph} >
         <li style={styles.listItem}><strong>Date of Birth:</strong> 25th December 2002</li>
         <li style={styles.listItem}><strong>Languages Known:</strong> English, Hindi, Marathi</li>
         <li style={styles.listItem}><strong>Hobbies:</strong> Coding, Reading Books, Traveling, Playing Cricket</li>
