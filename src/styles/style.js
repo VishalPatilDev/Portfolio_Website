@@ -107,7 +107,7 @@ const styles = {
   },
 
   /* ===== Typography ===== */
-  paragraph: { color: '#4b5563', lineHeight: '1.8', marginBottom: '1rem' },
+  paragraph: { color: '#1f2937', lineHeight: '1.8', marginBottom: '1rem' },
 
   /* ===== Avatar ===== */
   avatar: {
@@ -175,12 +175,14 @@ styles.responsive = {
     card: { padding: '1.5rem 2rem' },
   },
   '@media (max-width: 768px)': {
-    contentWrapper: { width: '100%', padding: '1.5rem' },
-    heading1: { fontSize: '2.2rem' },
-    heading2: { fontSize: '1.5rem' },
-    heading3: { fontSize: '1.2rem' },
-    card: { padding: '1.5rem' },
-  },
+  contentWrapper: { width: '100%', padding: '1.5rem' },
+  heading1: { fontSize: '2rem' },
+  heading2: { fontSize: '1.4rem' },
+  heading3: { fontSize: '1.1rem' },
+  paragraph: { color: '#111827', fontSize: '1rem', lineHeight: '1.8' }, // strong dark gray text
+  card: { padding: '1.5rem', width: '95%' },
+},
+
   '@media (max-width: 480px)': {
     heading1: { fontSize: '1.8rem' },
     heading2: { fontSize: '1.3rem' },
